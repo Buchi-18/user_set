@@ -1,0 +1,70 @@
+{
+  "files.autoSave": "afterDelay",
+  //ファイル保存時、自動フォーマット
+  "editor.formatOnSave": true,
+  // 貼り付けを行ったときに自動でフォーマット
+  "editor.formatOnPaste": false,
+  // 入力した行を自動でフォーマット
+  "editor.formatOnType": true,
+  //エディターフォントサイズ
+  "editor.fontSize": 17,
+  //ターミナルフォントサイズ
+  "terminal.integrated.fontSize": 16,
+  //エディターフォントファミリー
+  "editor.fontFamily": "Ricty Diminished",
+  //HTML終了タグオートリネーム
+  "editor.linkedEditing": true,
+  //エディター幅に合わせて折り返し
+  "editor.wordWrap": "on",
+  //1 つのタブに相当するスペースの数
+  "editor.tabSize": 2,
+  // ミニマップを非表示にする
+  "editor.minimap.enabled": false,
+  // 「半角スペース」「タブスペース」表示
+  "editor.renderWhitespace": "all",
+  //ワークベンチのアイコンテーマ
+  "workbench.iconTheme": "vscode-icons",
+  // ユーザースペル
+  "cSpell.userWords": [
+    "ERRMODE",
+    "esbenp",
+    "Lity",
+    "Photoshop",
+    "Ricty",
+    "Todos"
+  ],
+  // LiveServerのインフォメッセージ非表示
+  "liveServer.settings.donotShowInfoMsg": true,
+  //移動後のスタート画面非表示
+  "workbench.startupEditor": "none",
+  // タブ補完を有効にする
+  "editor.tabCompletion": "on",
+  // ブラケットペアガイドを有効にする
+  "editor.guides.bracketPairs": true,
+
+  //
+  //フォーマッター ******* **********˜
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
+
+  //
+  // *************** PHP ***************
+  //Intelephenseの更新によるUndefinedエラーの処置
+  "intelephense.diagnostics.undefinedTypes": false
+  // "intelephense.diagnostics.undefinedClassConstants": false,
+  // "intelephense.diagnostics.undefinedConstants": false,
+  // "intelephense.diagnostics.undefinedFunctions": false,
+  // "intelephense.diagnostics.undefinedMethods": false,
+  // "intelephense.diagnostics.undefinedProperties": false,
+}
